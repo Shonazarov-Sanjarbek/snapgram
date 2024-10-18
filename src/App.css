@@ -1,0 +1,31 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.list_box .active {
+    background-color: #877eff;
+    color: #fff;
+}
+
+.list_box .active::before {
+    content: "";
+    height: 44px;
+    width: 6.694px;
+    background-color: #877eff;
+    position: absolute;
+    left: 0px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.list_box .active .link__icon {
+    color: #fff;
+}
+
+.home_nav:hover .link__icon {
+    color: white;
+}
+
+.home_btn:hover .link__icon {
+    color: red;
+}
